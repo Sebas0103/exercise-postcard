@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  exercisepostcard:
+    image: exercisepostcard
+    build:
+      context: .
+      dockerfile: ./Dockerfile
